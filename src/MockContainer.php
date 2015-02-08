@@ -1,8 +1,6 @@
 <?php
 namespace TomVerran;
 use Interop\Container\ContainerInterface;
-use Interop\Container\Exception\ContainerException;
-use Interop\Container\Exception\NotFoundException;
 
 class MockContainer implements ContainerInterface
 {
@@ -20,7 +18,7 @@ class MockContainer implements ContainerInterface
     /**
      * Update a mapping between object identifier and object
      * @param string $id The object identifier
-     * @param $object the actual object
+     * @param mixed $object the actual object
      */
     public function setMapping( $id, $object )
     {
