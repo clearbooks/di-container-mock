@@ -1,5 +1,5 @@
 {
-    "name": "tomverran/di-container-mock",
+    "name": "clearbooks/di-container-mock",
     "type": "library",
     "description": "A mock container-interop container",
     "keywords": ["DI", "IoC", "Container"],
